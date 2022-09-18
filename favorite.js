@@ -27,7 +27,7 @@ function renderMovieList(data) {
       </div>
     </div>`
   })
-  dataPanel.innerHTML = rawHTML
+  dataPanel.innerHTML = rawHTML//放入某些東西確認
 }
 
 function showMovieModal(id) {
